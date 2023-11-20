@@ -102,7 +102,13 @@ while True:
         print_table()
         print('O win!')
         break
- 
+    
+    if len(choise_list) == 9:
+        clear_output()
+        print('Добро пожаловать в игру крестики-нолики!')
+        print_table()
+        print('Ничья!')
+        break
     clear_output()
     print('Добро пожаловать в игру крестики-нолики!')
     
